@@ -29,6 +29,8 @@ module.exports = {
     require.resolve('webpack-dev-server/client') + '?/',
     require.resolve('webpack/hot/dev-server'),
     // require.resolve('react-dev-utils/webpackHotDevClient'),
+
+    'react-hot-loader/patch',
     require.resolve('./polyfills'),
     require.resolve('react-error-overlay'),
     paths.appIndexJs,
